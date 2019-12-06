@@ -5,17 +5,16 @@ from turtle import *
 
 #Функция квадрата
 def square(x, y, size, color, angle):
-  turtle.pendown()
-  turtle.pencolor(color)
-  turtle.goto(x,y)
-  turtle.begin_fill()
-  turtle.left(angle)
-  for _ in range(4):
-    turtle.forward(size)
-    turtle.left(90)
-  turtle.right(angle)
-  turtle.end_fill()
-  
+    turtle.pendown()
+    turtle.pencolor(color)
+    turtle.goto(x, y)
+    turtle.begin_fill()
+    turtle.left(angle)
+    for _ in range(4):
+        turtle.forward(size)
+        turtle.left(90)
+        turtle.right(angle)
+        turtle.end_fill()
 #Функция треугольника
 
 #Функция ромба
